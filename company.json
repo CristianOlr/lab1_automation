@@ -1,0 +1,30 @@
+{
+  "company": {
+    "depId='1' name='Development'": {
+      "emplId=001": {
+        "lastName": "LastName1",
+        "firstName": "FirstName1",
+        "birthDate": "01.01.2000",
+        "position": "Department Manager",
+        "skills": [
+          "Comunication",
+          "Java"
+        ],
+        "managerId": "0"
+      },
+      "emplId=002": {
+        "lastName": "LastName2",
+        "firstName": "FirstName2",
+        "birthDate": "01.01.2001",
+        "position": "Developer",
+        "skills": [
+          "Sleeps only 2 hours per day",
+          "Overtimes without concerns",
+          "Works for food"
+        ],
+        "managerId": "001"
+      }
+    },
+    "depId='2' name='Accounting'": {}
+  }
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plants>
+    <make_seeds plants_with_Seeds="yes">
+        <Angiosperms have_flowers="yes">
+            <Dicotyledons class="Magnoliopsida">
+                <Magnoliidae subclass="I">
+                    <Magnoliales order="I">
+                        <Winteraceae family="1"/>
+                        <Degeneriaceae family="2"/>
+                        <Himantandraceae family="3"/>
+                        <Eupomatiaceae family="4"/>
+                        <Austrobaileyaceae family="5"/>
+                        <Magnoliaceae family="6">
+                            <PlantName>Yellow poplar (Liriodendron tulipifera)</PlantName>
+                            <PlantName>Tulip tree</PlantName>
+                            <PlantName>Champac (Michelia champaca)</PlantName>
+                        </Magnoliaceae>
+                        <Lactoridaceae family="7"/>
+                        <Annonaceae family="8">
+                            <PlantName>Alligator apple (A. glabra)</PlantName>
+                            <PlantName>Custard apple (A. reticulata)</PlantName>
+                            <PlantName>Cherimoya (A. cherimola)</PlantName>
+                            <PlantName>Soursop (A. muricata)</PlantName>
+                            <PlantName>Sweetsop (A. squamosa)</PlantName>
+                        </Annonaceae>
+                        <Myristicaceae family="9"/>
+                        <Canellaceae family="10"/>
+                    </Magnoliales>
+                    <Laurales order="II"/>
+                    <Piperales order="III"/>
+                    <Aristolochiales order="IV"/>
+                    <Illiciales order="V"/>
+                    <Nymphaeales order="VI"/>
+                    <Ranunculales order="VII"/>
+                    <Papaverales order="VIII"/>
+                </Magnoliidae>
+                <Hamamelidae subclass="II"/>
+                <Caryophyllidae subclass="III"/>
+                <Dilleniidae subclass="IV"/>
+                <Rosidae subclass="V"/>
+                <Asteridae subclass="VI"/>
+            </Dicotyledons>
+            <Monocotyledons class="Liliopsida">
+                <Alismatidae subclass="I"/>
+                <Arecidae subclass="II"/>
+                <Commelinidae subclass="III">
+                    <Commelinales order="I">
+                        <Rapateaceae family="1"/>
+                        <Xyridaceae family="2"/>
+                        <Mayacaceae family="3"/>
+                        <Commelinaceae family="4">
+                            <PlantName>Spiderwort (T.virginiana)</PlantName>
+                            <PlantName>T.fluminensis</PlantName>
+                            <PlantName>T.pallida</PlantName>
+                            <PlantName>T.zebrina</PlantName>
+                            <PlantName>Moses-in-the-cradle</PlantName>
+                            <PlantName>C.coelestis</PlantName>
+                            <PlantName>C.diffusa</PlantName>
+                            <PlantName>C.erecta</PlantName>
+                            <PlantName>D.mosaica</PlantName>
+                            <PlantName>D.thyrsiflora</PlantName>
+                            <PlantName>C.fragrans</PlantName>
+                        </Commelinaceae>
+                    </Commelinales>
+                    <Eriocaulales order="II"/>
+                    <Restionales order="III"/>
+                    <Juncales order="IV"/>
+                    <Cyperales order="V"/>
+                    <Hydatellales order="VI"/>
+                    <Typhales order="VII"/>
+                </Commelinidae>
+                <Zingiberidae subclass="IV"/>
+                <Liliidae subclass="V"/>
+            </Monocotyledons>
+        </Angiosperms>
+        <Gymnosperms have_flowers="no">Conifers</Gymnosperms>
+    </make_seeds>
+    <dont_make_seeds plants_with_Seeds="no">
+        <have_roots_stems_leaves have_all="yes">Ferns</have_roots_stems_leaves>
+        <no_roots_stems_or_leaves have_all="no">
+            <have_some_roots_stems_or_leaves_struct have_some_struct="yes">Algae
+            </have_some_roots_stems_or_leaves_struct>
+            <no_roots_stems_or_leaves_struct have_some_struct="no">Mosses</no_roots_stems_or_leaves_struct>
+        </no_roots_stems_or_leaves>
+    </dont_make_seeds>
+</plants>

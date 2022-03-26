@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<company>
+    <department depId="1" name="Development">
+        <employee emplId="001">
+            <lastName>LastName1</lastName>
+            <firstName>FirstName1</firstName>
+            <birthDate>01.01.2000</birthDate>
+            <position>Department Manager</position>
+            <skills>
+                <skill>Comunication</skill>
+                <skill>Java</skill>
+            </skills>
+            <managerId>0</managerId>
+        </employee>
+        <employee emplId="002">
+            <lastName>LastName2</lastName>
+            <firstName>FirstName2</firstName>
+            <birthDate>01.01.2001</birthDate>
+            <position>Developer</position>
+            <skills>
+                <skill>Sleeps only 2 hours per day</skill>
+                <skill>Overtimes without concerns</skill>
+                <skill>Works for food</skill>
+            </skills>
+            <managerId>001</managerId>
+        </employee>
+    </department>
+    <department depId="2" name="Accounting"/>
+</company>
